@@ -1,6 +1,6 @@
 // emailController.js
 const nodemailer = require('nodemailer');
-const User = require('../models/userModel');
+const User = require('../models/countryModel');
 
 
 const transporter = nodemailer.createTransport({
