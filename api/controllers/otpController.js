@@ -1,5 +1,5 @@
 // otpController.js
-const User = require('../models/userModel');
+const User = require('../models/countryModel');
 
 // Reset password using OTP
 exports.resetPassword = async (req, res) => {
